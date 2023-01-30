@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Markazi Text", serif;
+  font-size: 1em;
+  background-color: #edefee;
+}
+
+.section-wrapper {
+  padding: 1.5rem 15rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-wrapper {
+    padding: 1rem 2rem;
+  }
+
+  .header-content h1 {
+    font-size: 2em;
+  }
+
+  .header-content p {
+    padding: 0 1rem 0 0;
+    font-size: 0.5em;
+  }
+
+  .menu-items {
+    flex-direction: column;
+  }
+
+  .menu-item-img {
+    object-fit: contain;
+  }
+
+  .testimonials-section {
+    flex-direction: column;
+  }
+
+  .testimonials-section-img {
+    flex-direction: column;
+  }
+
+  .restau-background p {
+    padding: 0 1rem 0 0;
+  }
+
+  .restaurantchefs-img {
+    object-fit: contain;
+  }
+
+  .footer-content {
+    font-size: 12px;
+  }
+
+  .footer-img {
+    object-fit: contain;
+  }
+}

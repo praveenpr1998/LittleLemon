@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Markazi Text", serif;
+  background-color: #edefee;
+}
+
+.bookingpage-imgs > img {
+  width: 20%;
+  height: auto;
+  margin: 1rem;
+}
+
+.booking-form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
+  margin: 2rem auto;
+}
+
+.bookingpage-imgs {
+  display: flex;
+  justify-content: center;
+}
